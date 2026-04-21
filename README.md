@@ -14,23 +14,64 @@ Before starting, make sure you have python installed. If not, follow the instruc
 
 #### Windows
 
-1. Download Python from [python.org](https://www.python.org/downloads/) (make sure to install version 3.10 or higher).
+1. Open a terminal and run the following command to check if Python is already installed:
+   `python --version`.
+   If Python 3.10 or higher is already installed, you can skip the steps below.
 
-2. Install Python (make sure to check "Add Python to PATH" during installation).
+2. Download Python from [python.org](https://www.python.org/downloads/) (make sure to install version 3.10 or higher).
+
+3. Install Python (make sure to check "Add Python to PATH" during installation).
    Wait for the installation to finish.
 
-3. Verify the installation by running `python --version` on the terminal.
-   The output should be `bash Python 3.10.0` (in the case your version is 3.10, otherwise it will be the version you installed).
+4. Verify the installation by running `python --version` on the terminal.
+   The output should be `bash Python 3.10.0` (or whichever version was installed).
 
-   NOTE: If the command is not recognized, it's most likely because Python was not added to the PATH. In that case, you can try to run `py --version` or reinstall Python and make sure to check "Add Python to PATH" during installation.
+   > **Note:** If the command is not recognized, it's most likely because Python was not added to the PATH. In that case, you can try to run `py --version` or reinstall Python and make sure to check "Add Python to PATH" during installation.
 
 #### Linux
 
-TODO
+1. Open a terminal and run the following command to check if Python is already installed:
+   `python3 --version`.
+   If Python 3.10 or higher is already installed, you can skip the steps below.
+
+2. Update your package list and install Python:
+
+    ```bash
+    sudo apt update
+    sudo apt install python3 python3-pip
+    ```
+
+   > **Note:** The above commands are for Debian/Ubuntu-based distributions. For Fedora, use `sudo dnf install python3`. For Arch Linux, use `sudo pacman -S python`.
+
+3. Verify the installation by running `python3 --version` on the terminal.
+   The output should be `Python 3.10.0` (or whichever version was installed).
+
+   > **Note:** On Linux, Python is typically invoked as `python3` rather than `python`.
 
 #### MacOS
 
-TODO
+1. Open a terminal and run the following command to check if Python is already installed:
+   `python3 --version`.
+   If Python 3.10 or higher is already installed, you can skip the steps below.
+
+2. It is recommended to install Python via [**Homebrew**](https://brew.sh/). If you don't have Homebrew installed, run:
+
+    ```bash
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
+
+   Then install Python with:
+
+    ```bash
+    brew install python
+    ```
+
+   Alternatively, you can download the macOS installer directly from [**python.org**](https://www.python.org/downloads/) and follow the installation wizard.
+
+3. Verify the installation by running `python3 --version` on the terminal.
+   The output should be `Python 3.10.0` (or whichever version was installed).
+
+   > **Note:** On macOS, `python` may point to the system Python 2 installation. Always use `python3` to ensure you are using the correct version.
 
 ### Python environment
 
@@ -84,7 +125,7 @@ Python environments are important because they allow you to isolate the dependen
 
 2. Open the file in any text editor or IDE. You can use VS Code, PyCharm, or any other IDE.
 
-    NOTE: You can use AI agents to help you write the code, but remember that any AI usage must be reported explicitly in the report.
+    > **Note:** You can use AI agents to help you write the code, but remember that any AI usage must be reported explicitly in the report.
 
 3. Start with the basic skeleton:
 
