@@ -75,15 +75,15 @@ Before starting, make sure you have python installed. If not, follow the instruc
 
 ### Python environment
 
-TL;DR:
+Python environments are important because they allow you to isolate the dependencies for each project. This means that you can have different versions of the same library installed in different environments without them conflicting with each other. To guarantee that your project is reproducible and does not conflict with other projects, we recommend using a python environment.
+
+**Instructions TL;DR:**
 
 ```bash
 python -m venv venv
 venv\Scripts\activate
 pip install numpy
 ```
-
-Python environments are important because they allow you to isolate the dependencies for each project. This means that you can have different versions of the same library installed in different environments without them conflicting with each other. To guarantee that your project is reproducible and does not conflict with other projects, we recommend using a python environment.
 
 1. Start a new python environment:
 
