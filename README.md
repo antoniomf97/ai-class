@@ -39,7 +39,7 @@ TL;DR:
 ```bash
 python -m venv venv
 venv\Scripts\activate
-pip install -r requirements.txt
+pip install numpy
 ```
 
 Python environments are important because they allow you to isolate the dependencies for each project. This means that you can have different versions of the same library installed in different environments without them conflicting with each other. To guarantee that your project is reproducible and does not conflict with other projects, we recommend using a python environment.
