@@ -4,9 +4,51 @@ AI Course - Instituto Superio Técnico
 
 ## Table of contents
 
-- [Python Installation](#python-installation)
-- [Python environment](#python-environment)
-- [AI Usage](#ai-usage)
+- [Introduction](#introduction)
+   - [Project 2026](#project-2026)
+- [Tools and Materials](#tools-and-materials)
+   - [Project Template](#project-template)
+   - [AI Usage](#ai-usage)
+   - [Getting Started](#getting-started)
+
+## Introduction
+
+This is a repository for the AI Course at Instituto Superior Técnico. The goal of this repository is to provide a starting point for students.
+
+### Project 2026
+
+This years project is SlitherLink (Sli-Lin in Japanese), which is a puzzle game where you need to connect the dots to form a loop. See the [project instructions](projects/2526_slitherlink.pdf) for more information.
+
+#### Previous Projects
+
+- Project 2025: [Nuruomino](projects/2425_nuruomino.pdf)
+- Project 2024: [Pipe Mania](projects/2324_pipemania.pdf)
+
+## Tools and Materials
+
+### Project Template
+
+You can use the provided [project template](slitherlink.py) as a starting point. It includes all the required sections and a basic implementation of the game.
+
+We also provide some tools you can work with:
+
+- [search.py](search.py): contains implementations of some search algorithms (BFS, DFS, A*, etc) you can use to solve the puzzle.
+- [slitherlink_gui.py](slitherlink_gui.py): contains the code for a simple GUI for the game. You can use it to show the board state, as well as to test your solutions.
+
+> **Note:** do **not** change these files! 
+
+### AI Usage
+
+This AI Course is classified as **Level 1 (Yellow)**, which means that the usage of AI tools is allowed, but must be reported explicitly in the report.
+
+At this level, the use of AI tools is permitted for tasks within an assessment component, such as idea generation, topic organisation, brainstorming, linguistic review, structure suggestions, summarising, among others. Any generated content that is included in the final work must be reviewed and edited, so a Declaration of Use and of the purpose of that use is required, including, if requested by lecturers, the prompts used.
+
+**Declaration of Use Template:**
+"All decisions and technical content in this work are of my own authorship.
+[List tools] were used for [functions]"
+
+**Example:**
+"All decisions and technical content in this work are of my own authorship. ChatGPT by OpenAI (2025) [https://chat.openai.com] was used to generate the table of contents of the work."
 
 ### Python Installation
 
@@ -139,15 +181,4 @@ pip install numpy
 
 4. Save and run the file by running `python main.py` on the terminal.
 
-### AI Usage
 
-This AI Course is classified as **Level 1 (Yellow)**, which means that the usage of AI tools is allowed, but must be reported explicitly in the report.
-
-At this level, the use of AI tools is permitted for tasks within an assessment component, such as idea generation, topic organisation, brainstorming, linguistic review, structure suggestions, summarising, among others. Any generated content that is included in the final work must be reviewed and edited, so a Declaration of Use and of the purpose of that use is required, including, if requested by lecturers, the prompts used.
-
-**Declaration of Use Template:**
-"All decisions and technical content in this work are of my own authorship.
-[List tools] were used for [functions]"
-
-**Example:**
-"All decisions and technical content in this work are of my own authorship. ChatGPT by OpenAI (2025) [https://chat.openai.com] was used to generate the table of contents of the work."
